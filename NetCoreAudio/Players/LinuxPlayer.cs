@@ -15,7 +15,7 @@ namespace NetCoreAudio.Players
             }
             else
             {
-                return "aplay -q";
+                return "paplay";
             }
         }
 
