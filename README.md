@@ -2,6 +2,8 @@
 
 The library allows playback of audio files on .NET Core on any operating system with minimal dependencies
 
+This fork is slightly different, as it depends on pulseaudio or an alternative that provides the paplay command on Linux. It should not be used for large projects.
+
 ## Usage
 
 The library exposes Player class, which detects the OS the library is running on and abstracts away any OS-specific audio playback implementations.
